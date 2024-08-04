@@ -1,36 +1,25 @@
-
-/* * {
+* {
   box-sizing: border-box;
-  } */
+  margin: 0;
+  padding: 0;
+}
 :root {
-
   --color-black: #000000;
-  --color-aqua:  aqua;
+  --color-aqua: aqua;
   --color-white: #fff;
-  --color-light: #EAF6FF;
-  --color-light-green:#66E187;
+  --color-light: #eaf6ff;
+  --color-light-green: #66e187;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
-/* .conteiner {
-  height: 2142px;
-  width: 1920px;
-  display: flex;
-} */
-/* .content {
+.container {
   max-width: 1436px;
   margin: 0 auto;
-  padding: 0 242px;
-} */
+}
 .wrapper {
-  /* overflow: hidden; */
-  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,38 +27,13 @@ body {
   align-items: center;
   text-align: center;
 }
-/* .main {
-  display: flex;
-  flex: 1 1 auto;
-} */
 
-nav {
-  display: flex;
-  margin: 0 auto;
-}
-.logo {
-  margin-left: 242px;
-}
 .header {
-  display: flex;
-  height: 56px;
+  padding: 10px 0;
 }
-
-/* img {
-  padding-right: 242px;
-} */
-/* .header-container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-} */
 .header-nav {
   display: flex;
-  margin: 0 auto;
-  width: 1436px;
   align-items: center;
-  flex-grow: 1;
-  gap: 40px;
 }
 ul {
   list-style-type: none;
@@ -84,8 +48,7 @@ nav li {
 .header-menu {
   display: flex;
   gap: 64px;
-  flex-grow: 1;
-  justify-content: center;
+  margin-left: auto;
 }
 a {
   text-decoration: none;
@@ -100,30 +63,29 @@ a:hover {
   flex-direction: column;
   align-items: center;
   background-image: url(../images/1.png);
-  width: 1920px;
-  height: 2101px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 272px 0;
 }
 .parag {
   padding: 20px;
   font-size: 28px;
 }
-.big-logo{
-  margin: 272px 0;
+.big-logo {
   max-width: 100%;
   height: auto;
-} 
+  display: block;
+  margin: 0 auto;
+}
 h1 {
   color: var(--color-white);
   font-size: 32px;
-  margin-top: -265px ;
 }
 .cucumer-h {
   height: 300px;
-  width: 706px;
   border-radius: 20px;
   background-color: var(--color-light);
   margin: 0 auto;
-  margin-left: 244px;
   margin-top: 162px;
 }
 .other-section {
@@ -151,7 +113,3 @@ h1 {
   display: flex;
   margin: 0 auto;
 }
-
-
-
-
