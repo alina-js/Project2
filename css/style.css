@@ -1,0 +1,145 @@
+
+/* * {
+  box-sizing: border-box;
+  } */
+:root {
+
+  --color-black: #000000;
+  --color-aqua:  aqua;
+  --color-white: #fff;
+  --color-light: #EAF6FF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .conteiner {
+  height: 2142px;
+  width: 1920px;
+  display: flex;
+} */
+/* .content {
+  max-width: 1436px;
+  margin: 0 auto;
+  padding: 0 242px;
+} */
+.wrapper {
+  /* overflow: hidden; */
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .main {
+  display: flex;
+  flex: 1 1 auto;
+} */
+
+nav {
+  display: flex;
+  margin: 0 auto;
+}
+.logo {
+  margin-left: 242px;
+}
+.header {
+  display: flex;
+  height: 56px;
+}
+
+/* img {
+  padding-right: 242px;
+} */
+/* .header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} */
+.header-nav {
+  display: flex;
+  margin: 0 auto;
+  width: 1436px;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+}
+nav li {
+  color: var(--color-black);
+}
+
+.header-menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+a:hover {
+  color: var(--color-aqua);
+}
+
+.background-section {
+  background-image: url(../images/1.png);
+  width: 1920px;
+  height: 2101px;
+}
+.parag {
+  padding: 20px;
+  font-size: 28px;
+}
+.big-logo{
+  margin: 272px 0;
+  max-width: 100%;
+  height: auto;
+} 
+h1 {
+  color: var(--color-white);
+  font-size: 32px;
+  margin-top: -265px ;
+}
+.cucumer-h {
+  height: 300px;
+  width: 706px;
+  border-radius: 20px;
+  background-color: var(--color-light);
+  margin: 0 auto;
+  margin-left: 244px;
+  margin-top: 162px;
+}
+.ogir {
+  height: 300px;
+  width: 220px;
+  margin: 0 auto;
+  margin-left: 230px;
+}
+.button {
+  width: 215px;
+  height: 81px;
+  background: url(images/btn.png);
+  
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+
